@@ -1,0 +1,15 @@
+[package]
+name = "bucket"
+version = "1.0.0"
+edition = "2021"
+authors = ["FssAy <49795742+DmitrijVC@users.noreply.github.com>"]
+license = "GPL-3.0-only"
+description = "Offers a very simple container for any value without mutation."
+repository = "https://github.com/DmitrijVC/bucket"
+readme = "README.md"
+
+[lib]
+path = "src/bucket.rs"
+
+[dependencies]
+libc = "0.2.119"
